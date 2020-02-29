@@ -1,5 +1,5 @@
 body,html{
-    background-color:#bbb;
+    background-color:#000;
 }
 .clock{
     width: 100%;
@@ -9,13 +9,12 @@ body,html{
     font-size: 2em;
     text-align: center;
     padding-top:20%;
-    color:tomato;
+    color:#fff;
 }
 .date,.hr,.min,.sec,.zone{
     border-radius: 10px;
-    box-shadow: 0em 0em 0.2em  0.2em  blue inset;
+    box-shadow: 0em 0em 0.5em  #0f0 inset;
     display: inline;
     padding:30px;
-    background-color: #fff;
     margin-left:5px;
 }

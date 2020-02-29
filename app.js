@@ -6,7 +6,7 @@ let tick = ()=>{
     const min = now.getMinutes();
     const hr = now.getHours();
     const sec = now.getSeconds();
-    const zone = hr>12?"PM":"AM";
+    const zone = hr>=12?"PM":"AM";
     const date = now.toLocaleDateString();
     clock.innerHTML = `
         <div class="date">${date}</div> 
