@@ -13,7 +13,7 @@ body,html{
 }
 .date,.hr,.min,.sec,.zone{
     border-radius: 5%;
-    box-shadow: 0em 0em 0.5em  #0f0 inset;
+    box-shadow: 0em 0em 0.5em  #f00 inset;
     display: inline;
     padding:30px;
     margin-left:5px;
