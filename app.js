@@ -4,9 +4,9 @@ let clock = document.querySelector(".clock");
 let tick = ()=>{
     const now = new Date();
     const min = now.getMinutes();
-    const hr = now.getHours();
+    const hr = now.getHours()>12?now.getHours()-12:now.getHours();
     const sec = now.getSeconds();
-    const zone = hr>=12?"PM":"AM";
+    const zone = now.getHours()>=12?"PM":"AM";
     const date = now.toLocaleDateString();
     clock.innerHTML = `
         <div class="date">${date}</div> 
